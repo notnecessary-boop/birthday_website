@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+  // Set your password here
+  const sitePassword = "my tarzan"; // Change this to whatever password you want
+
+  // Ask user for password
+  const userInput = prompt("Enter password to view this site:");
+
+  // Check password
+  if (userInput !== sitePassword) {
+    // If wrong, hide the site and show message
+    document.body.innerHTML = "<h2 style='text-align:center; margin-top:50px;'>Access Denied ❌<br>Wrong Password</h2>";
+  }
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Brother!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Hero Section -->
+<section id="hero">
+    <div class="hero-content">
+        <h1>🎉 Happy Birthday, MY MONKEY! 🎉</h1>
+        <p>Celebrating you today and always 💛</p>
+        <button onclick="scrollToSection('gallery')">Scroll to Celebrate</button>
+    </div>
+</section>
+
+<!-- Photo & Memory Gallery -->
+<section id="gallery">
+    <h2>Memorable Moments</h2>
+    <div class="gallery-grid">
+        <img src="photoes/khush.1.jpeg" alt="Memory 1">
+        <img src="photoes/khush.2.jpeg" alt="Memory 2">
+        <img src="photoes/khush.6.jpeg" alt="Memory 3">
+        <img src="photoes/khush.8.jpeg" alt="Memory 4">
+        <!-- Add more photos -->
+    </div>
+</section>
+
+<!-- Timeline Section -->
+<section id="timeline">
+    <h2>Life Highlights</h2>
+    <div class="timeline-container">
+        <div class="timeline-item">
+            <h3>2006 🎂 Born</h3>
+            <p>The world got brighter with your arrival!</p>
+        </div>
+        <div class="timeline-item">
+            <h3>2022 First manali trip</h3>
+            <p>your love towards mountains !</p>
+        </div>
+        <div class="timeline-item">
+            <h3>2023  that tuition wala accident </h3>
+            <p>You crushed the activa with 75 speed</p>
+        </div>
+         <div class="timeline-item">
+            <h3>2025  the most beautiful thing happened to you </h3>
+            <p>Your beautiful sister </p>
+        </div>
+        <div class="timeline-item">
+            <h3>2026  year begin with sikkim ki wadiyan</h3>
+            <p>that tom&jerry cafe </p>
+        </div>
+        <!-- Add more timeline items -->
+    </div>
+</section>
+
+<!-- Video Messages -->
+<section id="videos">
+    <h2>Birthday Wishes</h2>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ywz5HjylXLo" 
+        title="Video Wish" frameborder="0" allowfullscreen></iframe>
+        <!-- Add more videos -->
+    </div>
+</section>
+
+<section id="memories">
+  <h2>Our Memories 📸</h2>
+  <div class="memory-grid">
+    <div class="memory-card">
+      <img src="photoes/khush.4.jpeg" alt="first outing">
+      <p><strong>first outing with families:</strong> Remember how we played that kho-kho and captured so many photographers while struggling with vivan.</p>
+    </div>
+    <div class="memory-card">
+      <img src="photoes/khush.9.jpeg" alt="off beat garba">
+      <p><strong>that bhumik shah event:</strong> how we skipped garba and just stand to listen bhumik shah in that rain</p>
+    </div>
+    <div class="memory-card">
+      <img src="photoes/khush.11.jpeg" alt="Rooftop cafe">
+      <p><strong>college k baad rooftop:</strong> a day before i went on vacations how we went to cafe because i was very hungry.</p>
+    </div>
+    <div class="memory-card">
+      <img src="photoes/khush.12.jpeg" alt="first uttrayan together">
+      <p><strong>kite festival:</stronng> though mari kite fly nati thai but we had so much fun that evening.</p>
+    </div>
+    <div class="memory-card">
+      <img src="photoes/khush.13.jpeg" alt="ice cream">
+      <p><strong>consecutive visit to hocco:</strong>the day when i ordered ice cream but it came with nuts and you had to have it all.</p>
+    </div>
+    <!-- Add more memory cards -->
+  </div>
+</section>
+
+<!-- Shayari Section -->
+<section id="shayari">
+    <h2>Shayaris for You ✨</h2>
+    <div class="shayari-container">
+        <div class="shayari-card">
+            <p>"Bhai tu meri duniya ka sabse pyara hissa hai 🌟  
+Tere bina har din adhoora sa lagta hai 💔  
+Teri muskaan meri khushi ka sabab hai 😄  
+Har pal tera saath mere liye anmol hai 💛  
+Aaj tera janamdin hai, khushiyon ka tyohar 🎉  
+Tere sapne sach ho, yahi meri dua hai 🙏  
+Tu hamesha muskurata rahe 🌈  
+Mera bhai, meri jaan hai tu 🏆"</p>
+        </div>
+        <div class="shayari-card">
+            <p>"Janamdin mubarak ho, bhai mere 🎂✨  
+Tere saath bitaye pal yaadgar hai 💖  
+Teri hansi meri zindagi roshan karti hai 😍  
+Tere bina sab kuch adhoora sa lagta hai 💔  
+Teri khushi meri dua hai 🙏  
+Har din tera suhana ho 🌞  
+Tu mera hero hai, mera proudness 🏆  
+Bhai, tu meri jaan hai 💛"</p>
+        </div>
+        <div class="shayari-card">
+            <p>"Bhai tu mera pyaara saathi hai 🌟  
+Tere saath har pal khubsurat hai 🌸  
+Tere saath hasi, masti aur mazak hai 😂  
+Tere bina zindagi kuch adhoori si lagti hai 💔  
+Aaj tera birthday hai, tyohar ka din 🎉  
+Tere sapne sach ho, har dua meri yahi hai 🙏  
+Tu hamesha khush rahe 😄  
+Mera bhai, meri jaan hai tu 💖"</p>
+        </div>
+        <!-- Add more Shayaris as you like -->
+    </div>
+</section>
+
+<<!-- Favorites & Interests --> 
+<section id="favorites">
+    <h2>Things You Love</h2>
+    <div class="favorites-grid">
+        <!-- Music Card with Toggleable Songs -->
+        <div class="favorite-card">
+            <h3>Music 🎵</h3>
+            <p>Favorite Songs / Playlist</p>
+            <button onclick="toggleMusic()">Show My Favorite Songs</button>
+            <div id="musicList" style="display: none; margin-top: 15px;">
+                <p>1. 💖 Tum hi ho, tum hi ho
+Meri zindagi ab tum hi ho 🌹
+Chain bhi, mera dard bhi
+Meri aashiqui ab tum hi ho ❤️
+Har pal bas tera intezaar hai ⏳</p>
+                <p>2. ❤️ Phir bhi tumko chahunga,
+Zindagi bhar tumko chahunga 🌹
+Chahe raatein ho ya din 🌙☀️
+Har pal bas tumko chahunga 💖
+Meri dhadkan sirf tumhare liye hai 💓</p>
+                <p>3. 💖 Sach keh raha hai deewana,
+Tera hi ho gaya dil yeh jana 🌹
+Har pal teri yaadon mein jeeun 🕊️
+Tere bina ab lagta hai adhoora 💔
+Meri duniya sirf tu hi tu hai 🌟</p>
+                <p>4. 🌸 Piya ghar aayenge,
+Meri raahon mein phool bikharenge 🌹
+Har din bas tera intezaar hai ⏳
+Meri khushi ab sirf tu hi tu hai 💖
+Dil se tera naam main pukaarungi 💓</p>
+                
+                <!-- Add more songs as needed -->
+            </div>
+        </div>
+
+         <div class="favorite-card">
+            <h3>Movies 🎬</h3>
+            <p>Favorite Films</p>
+            <button onclick="toggleMovies()">Show My Favorite Movies</button>
+            <div id="moviesList" style="display: none; margin-top: 15px;">
+                <p>1.dhurandhar</p>
+                <p>2. Formula-1</p>
+                <p>3. dhamaal</p>
+                <p>4. final destination 5</p>
+                <p>5.dhadak 2</p>
+                <!-- Add more movies here -->
+            </div>
+        </div>
+                <!-- Games Card -->
+        <div class="favorite-card">
+            <h3>food</h3>
+            <p>favourite food items </p><button onclick="togglefood()">Show My Favorite food items</button>
+            <div id="foodList" style="display: none; margin-top: 15px;">
+                <p>1.butter cholle kulcha</p>
+                <p>2. crispy and cheesy pizza</p>
+                <p>3. mexican food</p>
+                <p>4. soft and spongy gulab jamun</p>
+                <p>5.cute and sweet boondi</p>
+                <p>6.yum peri peri fries</p>
+                <p>7.tangy kachori chat</p>
+                <p>8.summer special aam raas</p>
+                <p>9. soda queen diet coke</p>
+                <p>10.your little sister's dimag</p>
+                <!-- Add more food items here -->
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript for Toggle -->
+<script>
+function toggleMusic() {
+    const musicList = document.getElementById("musicList");
+    musicList.style.display = musicList.style.display === "none" ? "block" : "none";
+}
+
+function toggleMovies() {
+    const moviesList = document.getElementById("moviesList");
+    moviesList.style.display = moviesList.style.display === "none" ? "block" : "none";
+}
+</script>
+
+<!-- JavaScript for Toggle -->
+<script>
+function toggleMusic() {
+    const musicList = document.getElementById("musicList");
+    if (musicList.style.display === "none") {
+        musicList.style.display = "block";
+    } else {
+        musicList.style.display = "none";
+    }
+}
+</script>
+<!-- JavaScript for Toggle -->
+<script>
+function togglefood() {
+    const foodList = document.getElementById("foodList");
+    foodList.style.display = foodList.style.display === "none" ? "block" : "none";
+}
+
+function togglefood() {
+    const foodList = document.getElementById("foodList");
+    foodList.style.display = foodList.style.display === "none" ? "block" : "none";
+}
+</script>
+<!-- Message Wall -->
+<section id="messages">
+    <h2>Leave Your Wishes</h2>
+    <form id="messageForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <div id="messageBoard"></div>
+</section>
+
+<!-- Surprise Easter Egg -->
+<section id="surprise">
+    <h2>Click the Gift 🎁</h2>
+    <button id="giftButton">🎁</button>
+    <p id="giftMessage" style="display:none;">Surprise! today is world's best day because it's your birthday</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>Made with lots of love and efforts by your cute chhotu sister</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
